@@ -1,0 +1,47 @@
+// Header
+
+header {
+    background-color: #1A2E51;
+
+    .nav-bar {
+        display: flex;
+        padding-top: 36px;
+
+        .text {
+            ul {
+                display: flex;
+                z-index: 9;
+                position: relative;
+                padding-top: 12px;
+                margin-left: 46px;
+
+                li {
+                    margin-left: 28px;
+                    text-transform: uppercase;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                    &:hover a{
+                        color: #F5B458;
+                    }
+                }
+
+                .dropdown {
+
+                    .dropdown-toggle {
+                        background-color: none;
+                    }
+
+                    .dropdown-menu {
+                        overflow: hidden;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Header

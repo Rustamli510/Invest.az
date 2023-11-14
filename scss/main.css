@@ -1,3 +1,5 @@
+@import url(./font.css);
+@import url(./header.css);
 * {
   padding: 0;
   margin: 0;
@@ -8,33 +10,6 @@
 .container {
   max-width: 1140px;
   margin: 0 auto;
-}
-
-header {
-  background-color: #1A2E51;
-}
-header .nav-bar {
-  display: flex;
-  padding-top: 36px;
-}
-header .nav-bar .text ul {
-  display: flex;
-  padding-top: 12px;
-  margin-left: 46px;
-}
-header .nav-bar .text ul li {
-  margin-left: 28px;
-  text-transform: uppercase;
-}
-header .nav-bar .text ul li a {
-  text-decoration: none;
-  color: white;
-}
-header .nav-bar .text ul .dropdown .dropdown-toggle {
-  background-color: none;
-}
-header .nav-bar .text ul .dropdown .dropdown-menu {
-  overflow: hidden;
 }
 
 .banner {
@@ -105,4 +80,58 @@ header .nav-bar .text ul .dropdown .dropdown-menu {
   right: 0;
   height: 900px;
   width: 721px;
+}
+
+.why {
+  background-color: #FAFAFA;
+  padding-top: 80px;
+}
+.why .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.why .top .left {
+  display: flex;
+  align-items: center;
+}
+.why .top .left img {
+  margin-right: 8px;
+}
+.why .top .left h2 {
+  color: #1A2E51;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  line-height: 40px;
+  letter-spacing: 1.04px;
+  margin-top: 5px;
+}
+.why .top .right {
+  position: relative;
+}
+.why .top .right a {
+  text-decoration: none;
+  color: #1A2E51;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 1.4px;
+  z-index: 9;
+  position: relative;
+}
+.why .top .right a:hover {
+  height: 38px;
+}
+.why .top .right span {
+  height: 4px;
+  width: 142px;
+  background-color: #F5B458;
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: -3px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,1 +1,31 @@
-/*# sourceMappingURL=header.css.map */
+header {
+  background-color: #1A2E51;
+}
+header .nav-bar {
+  display: flex;
+  padding-top: 36px;
+}
+header .nav-bar .text ul {
+  display: flex;
+  z-index: 9;
+  position: relative;
+  padding-top: 12px;
+  margin-left: 46px;
+}
+header .nav-bar .text ul li {
+  margin-left: 28px;
+  text-transform: uppercase;
+}
+header .nav-bar .text ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .nav-bar .text ul li:hover a {
+  color: #F5B458;
+}
+header .nav-bar .text ul .dropdown .dropdown-toggle {
+  background-color: none;
+}
+header .nav-bar .text ul .dropdown .dropdown-menu {
+  overflow: hidden;
+}/*# sourceMappingURL=header.css.map */
