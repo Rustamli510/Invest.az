@@ -14,10 +14,12 @@
 
 .banner {
   background-color: #1A2E51;
-  height: 800px;
+  height: 744px;
+  display: flex;
+  align-items: center;
 }
 .banner .row .col-lg-6 .banner-text {
-  padding-top: 250px;
+  padding-top: 50px;
 }
 .banner .row .col-lg-6 .banner-text h5 {
   color: white;
@@ -26,6 +28,7 @@
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0.36px;
+  padding-bottom: 8px;
 }
 .banner .row .col-lg-6 .banner-text h2 {
   color: white;
@@ -41,6 +44,7 @@
   height: 71px;
   border: 2px solid #F5B458;
   text-align: center;
+  margin-top: 48px;
 }
 .banner .row .col-lg-6 .banner-text .explore p {
   padding-top: 23px;
@@ -54,7 +58,7 @@
 }
 .banner .row .col-lg-6 .banner-text .bottom {
   display: flex;
-  margin-top: 50px;
+  padding-top: 241px;
 }
 .banner .row .col-lg-6 .banner-text .bottom .left {
   width: 49px;
@@ -78,8 +82,6 @@
   position: absolute;
   top: 0;
   right: 0;
-  height: 900px;
-  width: 721px;
 }
 
 .why {
@@ -134,4 +136,30 @@
   position: absolute;
   top: 11px;
   left: -3px;
+}
+.why .bottom .row .col-lg-4 .up {
+  display: flex;
+}
+.why .bottom .row .col-lg-4 .up h1 {
+  color: #1A2E51;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: 1.44px;
+  padding: 6px 0 0 16px;
+}
+.why .bottom .row .col-lg-4 .down {
+  display: flex;
+  justify-content: right;
+  margin-top: 11px;
+}
+.why .bottom .row .col-lg-4 .down p {
+  color: #465061;
+  font-size: 16px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03px;
 }/*# sourceMappingURL=main.css.map */
