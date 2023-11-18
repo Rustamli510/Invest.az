@@ -56,6 +56,9 @@
   line-height: 22px;
   letter-spacing: 1.4px;
 }
+.banner .row .col-lg-6 .banner-text .explore:hover {
+  background-color: #F5B458;
+}
 .banner .row .col-lg-6 .banner-text .bottom {
   display: flex;
   padding-top: 241px;
@@ -137,6 +140,9 @@
   top: 11px;
   left: -3px;
 }
+.why .bottom {
+  padding-top: 56px;
+}
 .why .bottom .row .col-lg-4 .up {
   display: flex;
 }
@@ -152,7 +158,7 @@
 }
 .why .bottom .row .col-lg-4 .down {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   margin-top: 11px;
 }
 .why .bottom .row .col-lg-4 .down p {
