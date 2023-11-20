@@ -95,6 +95,7 @@
 .why {
   background-color: #FAFAFA;
   padding-top: 80px;
+  padding-bottom: 100px;
 }
 .why .top {
   display: flex;
@@ -246,4 +247,60 @@
   text-align: right;
   padding-top: 44px;
   cursor: pointer;
+}
+
+.priority-directions {
+  padding-top: 100px;
+}
+.priority-directions .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.priority-directions .top .left {
+  display: flex;
+  align-items: center;
+}
+.priority-directions .top .left img {
+  margin-right: 8px;
+}
+.priority-directions .top .left h2 {
+  color: #1A2E51;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  line-height: 40px;
+  letter-spacing: 1.04px;
+  margin-top: 5px;
+}
+.priority-directions .top .right {
+  position: relative;
+}
+.priority-directions .top .right a {
+  text-decoration: none;
+  color: #1A2E51;
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 1.4px;
+  z-index: 9;
+  position: relative;
+}
+.priority-directions .top .right a:hover {
+  height: 38px;
+}
+.priority-directions .top .right span {
+  height: 4px;
+  width: 142px;
+  background-color: #F5B458;
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: -3px;
+}
+.priority-directions .row .col-lg-4 .img-col:first-child {
+  height: 600px;
 }/*# sourceMappingURL=main.css.map */
