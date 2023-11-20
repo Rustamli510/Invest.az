@@ -58,6 +58,11 @@
 }
 .banner .row .col-lg-6 .banner-text .explore:hover {
   background-color: #F5B458;
+  transition: ease-out 0.3s;
+}
+.banner .row .col-lg-6 .banner-text .explore:hover p {
+  color: #1A2E51;
+  text-shadow: 1px 5px 7px rgba(26, 46, 81, 0.5);
 }
 .banner .row .col-lg-6 .banner-text .bottom {
   display: flex;
@@ -168,4 +173,77 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03px;
+}
+
+.submission {
+  background-color: #F5B458;
+}
+.submission .project {
+  padding-top: 41px;
+  padding-bottom: 36px;
+  display: flex;
+  justify-content: center;
+}
+.submission .project .left {
+  margin-right: 55px;
+}
+.submission .project .left h1 {
+  color: #1A2E51;
+  font-size: 26px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 34px;
+  letter-spacing: 0.52px;
+}
+.submission .project .left p {
+  color: #1A2E51;
+  font-size: 18px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 16px;
+}
+.submission .project .right {
+  margin-left: 55px;
+}
+.submission .project .right h5 {
+  color: #1A2E51;
+  font-size: 14px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: 22px;
+}
+.submission .project .right .select {
+  width: 339px;
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid #EFF1F2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.submission .project .right .select p {
+  color: #465061;
+  font-size: 16px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: 24px;
+  padding: 12px 0 12px 16px;
+  margin: 0;
+}
+.submission .project .right .select img {
+  padding-right: 16px;
+}
+.submission .project .right h4 {
+  color: #1A2E51;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 1.4px;
+  text-align: right;
+  padding-top: 44px;
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */

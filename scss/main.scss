@@ -66,6 +66,12 @@
 
                     &:hover{
                         background-color: #F5B458;
+                        transition: ease-out .3s;
+                    }
+
+                    &:hover p{
+                        color: #1A2E51;
+                        text-shadow: 1px 5px 7px rgba(26,46,81,0.50);
                     }
                 }
 
@@ -210,5 +216,89 @@
     }
 }
 
-
 // Why choose AIC
+
+// Project Submission
+
+.submission{
+    background-color: #F5B458;
+    .project{
+        padding-top: 41px;
+        padding-bottom: 36px;
+        display: flex;
+        justify-content: center;
+        .left{
+            margin-right: 55px;
+            h1{
+                color: #1A2E51;
+                font-size: 26px;
+                font-family: 'Montserrat';
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 34px;
+                letter-spacing: 0.52px;
+            }
+
+            p{
+                color: #1A2E51;
+                font-size: 18px;
+                font-family: 'Fira Sans';
+                font-weight: 400;
+                line-height: 26px;
+                padding-top: 16px;
+            }
+        }
+
+        .right{
+            margin-left: 55px;
+
+            h5{
+                color: #1A2E51;
+                font-size: 14px;
+                font-family: 'Fira Sans';
+                font-weight: 400;
+                line-height: 22px;
+            }
+
+            .select{
+                width: 339px;
+                background-color: white;
+                border-radius: 3px;
+                border: 1px solid #EFF1F2;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                p{
+                    color: #465061;
+                    font-size: 16px;
+                    font-family: 'Fira Sans';
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding: 12px 0 12px 16px;
+                    margin: 0;
+                }
+
+                img{
+                    padding-right: 16px;
+                }
+            }
+            
+
+            h4{
+                color: #1A2E51;
+                font-size: 14px;
+                font-family: 'Montserrat';
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 22px;
+                letter-spacing: 1.40px;
+                text-align: right;
+                padding-top: 44px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+// Project Submission

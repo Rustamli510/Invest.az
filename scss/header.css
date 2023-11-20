@@ -9,8 +9,9 @@ header .nav-bar .text ul {
   display: flex;
   z-index: 9;
   position: relative;
-  padding-top: 12px;
   margin-left: 46px;
+  padding: 0;
+  padding-top: 12px;
 }
 header .nav-bar .text ul li {
   margin-left: 28px;
@@ -22,10 +23,34 @@ header .nav-bar .text ul li a {
 }
 header .nav-bar .text ul li:hover a {
   color: #F5B458;
+  transition: ease-in-out 0.2s;
 }
-header .nav-bar .text ul .dropdown .dropdown-toggle {
-  background-color: none;
+header .nav-bar .text ul li:hover .dropdown {
+  display: block;
 }
-header .nav-bar .text ul .dropdown .dropdown-menu {
-  overflow: hidden;
+header .nav-bar .text ul li .dropdown {
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  margin-top: 5px;
+  display: none;
+}
+header .nav-bar .text ul li .dropdown ul {
+  margin-left: 0;
+  padding-top: 0;
+}
+header .nav-bar .text ul li .dropdown ul li {
+  padding: 8px 40px 8px 20px;
+  margin-left: 0;
+}
+header .nav-bar .text ul li .dropdown ul li a {
+  color: #1A2E51;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.56px;
+}
+header .nav-bar .text ul li .dropdown ul li:hover {
+  background-color: #F5B458;
 }/*# sourceMappingURL=header.css.map */
