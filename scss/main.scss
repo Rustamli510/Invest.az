@@ -26,6 +26,7 @@
         .col-lg-6 {
             .banner-text {
                 padding-top: 50px;
+
                 h5 {
                     color: white;
                     font-size: 18px;
@@ -64,14 +65,14 @@
                         letter-spacing: 1.40px;
                     }
 
-                    &:hover{
+                    &:hover {
                         background-color: #F5B458;
                         transition: ease-out .3s;
                     }
 
-                    &:hover p{
+                    &:hover p {
                         color: #1A2E51;
-                        text-shadow: 1px 5px 7px rgba(26,46,81,0.50);
+                        text-shadow: 1px 5px 7px rgba(26, 46, 81, 0.50);
                     }
                 }
 
@@ -122,6 +123,7 @@
     background-color: #FAFAFA;
     padding-top: 80px;
     padding-bottom: 100px;
+
     .top {
         display: flex;
         align-items: center;
@@ -149,6 +151,7 @@
 
         .right {
             position: relative;
+
             a {
                 text-decoration: none;
                 color: #1A2E51;
@@ -178,14 +181,15 @@
         }
     }
 
-    .bottom{
+    .bottom {
         padding-top: 56px;
-        .row{
-            .col-lg-4{
-                .up{
+
+        .row {
+            .col-lg-4 {
+                .up {
                     display: flex;
 
-                    h1{
+                    h1 {
                         color: #1A2E51;
                         font-size: 18px;
                         font-family: 'Montserrat';
@@ -196,13 +200,13 @@
                         padding: 6px 0 0 16px;
                     }
                 }
-                
-                .down{
+
+                .down {
                     display: flex;
                     justify-content: center;
                     margin-top: 11px;
 
-                    p{
+                    p {
                         color: #465061;
                         font-size: 16px;
                         font-family: 'Fira Sans';
@@ -220,16 +224,19 @@
 
 // Project Submission
 
-.submission{
+.submission {
     background-color: #F5B458;
-    .project{
+
+    .project {
         padding-top: 41px;
         padding-bottom: 36px;
         display: flex;
         justify-content: center;
-        .left{
+
+        .left {
             margin-right: 55px;
-            h1{
+
+            h1 {
                 color: #1A2E51;
                 font-size: 26px;
                 font-family: 'Montserrat';
@@ -239,7 +246,7 @@
                 letter-spacing: 0.52px;
             }
 
-            p{
+            p {
                 color: #1A2E51;
                 font-size: 18px;
                 font-family: 'Fira Sans';
@@ -249,10 +256,10 @@
             }
         }
 
-        .right{
+        .right {
             margin-left: 55px;
 
-            h5{
+            h5 {
                 color: #1A2E51;
                 font-size: 14px;
                 font-family: 'Fira Sans';
@@ -260,7 +267,7 @@
                 line-height: 22px;
             }
 
-            .select{
+            .select {
                 width: 339px;
                 background-color: white;
                 border-radius: 3px;
@@ -269,7 +276,7 @@
                 align-items: center;
                 justify-content: space-between;
 
-                p{
+                p {
                     color: #465061;
                     font-size: 16px;
                     font-family: 'Fira Sans';
@@ -279,13 +286,13 @@
                     margin: 0;
                 }
 
-                img{
+                img {
                     padding-right: 16px;
                 }
             }
-            
 
-            h4{
+
+            h4 {
                 color: #1A2E51;
                 font-size: 14px;
                 font-family: 'Montserrat';
@@ -307,19 +314,21 @@
 
 .priority-directions {
     padding-top: 100px;
+
     .top {
         display: flex;
         align-items: center;
         justify-content: space-between;
-    
+        padding-bottom: 48px;
+
         .left {
             display: flex;
             align-items: center;
-    
+
             img {
                 margin-right: 8px;
             }
-    
+
             h2 {
                 color: #1A2E51;
                 font-size: 26px;
@@ -331,8 +340,10 @@
                 margin-top: 5px;
             }
         }
+
         .right {
             position: relative;
+
             a {
                 text-decoration: none;
                 color: #1A2E51;
@@ -361,16 +372,202 @@
             }
         }
     }
+}
 
-    .row{
-        .col-lg-4{
-            .img-col{
-                &:first-child{
-                    height: 600px;
+// Priority directions
+
+// Why Azerbaijan
+
+.why-azerbaijan {
+    padding-top: 120px;
+
+    .row {
+        .col-lg-6 {
+            .all {
+                padding-left: 120px;
+                padding-top: 88px;
+
+                .top {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        margin-right: 8px;
+                    }
+
+                    h2 {
+                        color: #1A2E51;
+                        font-size: 26px;
+                        font-weight: 700;
+                        font-family: "Montserrat";
+                        text-transform: uppercase;
+                        line-height: 40px;
+                        letter-spacing: 1.04px;
+                        margin-top: 5px;
+                    }
+                }
+
+                .lorem {
+                    padding-top: 32px;
+                    color: black;
+                    font-size: 18px;
+                    font-family: 'Fira Sans';
+                    font-weight: 400;
+                    line-height: 28px;
+                    letter-spacing: 0.36px;
+                    margin-bottom: 0;
+                }
+
+                .rate {
+                    padding-top: 34px;
+                    display: flex;
+                    align-items: center;
+
+                    .text {
+                        padding-left: 24px;
+
+                        h6 {
+                            color: #465061;
+                            font-size: 20px;
+                            font-family: 'Montserrat';
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            line-height: 32px;
+                            letter-spacing: 0.40px;
+                            margin-bottom: 0;
+                        }
+
+                        p {
+                            color: #465061;
+                            font-size: 16px;
+                            font-family: 'Fira Sans';
+                            font-weight: 400;
+                            line-height: 24px;
+                            margin-top: 0;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+
+                .bottom {
+                    position: relative;
+                    padding-top: 40px;
+
+                    a {
+                        text-decoration: none;
+                        color: #1A2E51;
+                        font-size: 14px;
+                        font-family: 'Montserrat';
+                        font-weight: 700;
+                        text-transform: uppercase;
+                        line-height: 22px;
+                        letter-spacing: 1.40px;
+                        z-index: 9;
+                        position: relative;
+                        justify-content: right;
+                        display: flex;
+
+                        &:hover {
+                            height: 38px;
+                        }
+                    }
+
+                    span {
+                        height: 4px;
+                        width: 142px;
+                        background-color: #F5B458;
+                        display: block;
+                        position: absolute;
+                        bottom: 9px;
+                        right: -2px;
+                    }
                 }
             }
         }
     }
 }
 
-// Priority directions
+// Why Azerbaijan
+
+// Our project
+
+.our-project {
+    padding-top: 100px;
+    .container {
+        .row {
+            .top {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    margin-right: 8px;
+                }
+
+                h2 {
+                    color: #1A2E51;
+                    font-size: 26px;
+                    font-weight: 700;
+                    font-family: "Montserrat";
+                    text-transform: uppercase;
+                    line-height: 40px;
+                    letter-spacing: 1.04px;
+                    margin-top: 5px;
+                }
+            }
+            .col-lg-6{
+                padding: 70px 40px 0 40px;
+
+                .kart{
+
+                    img{
+                        width: 100%;
+                        position: relative;
+                    }
+    
+                    p{
+                        color: black;
+                        font-size: 20px;
+                        font-family: Montserrat;
+                        font-weight: 600;
+                        line-height: 30px;
+                        word-wrap: break-word;
+                        text-align: center;
+                        padding-top: 16px;
+                    }
+
+                    &:hover{
+
+                        span{
+                            display: inline-block;
+                            width: 490px;
+                            height: 319px;
+                            background-color: black;
+                            opacity: 30%;
+                            position: absolute;
+                            z-index: 1;
+                            left: 145px;
+                        }
+
+                        span{
+                            display: inline-block;
+                            width: 490px;
+                            height: 319px;
+                            background-color: black;
+                            opacity: 30%;
+                            position: absolute;
+                            z-index: 1;
+                            left: 145px;
+
+                            &:nth-child(2){
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Our project

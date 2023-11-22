@@ -256,6 +256,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 48px;
 }
 .priority-directions .top .left {
   display: flex;
@@ -301,6 +302,154 @@
   top: 11px;
   left: -3px;
 }
-.priority-directions .row .col-lg-4 .img-col:first-child {
-  height: 600px;
+
+.why-azerbaijan {
+  padding-top: 120px;
+}
+.why-azerbaijan .row .col-lg-6 .all {
+  padding-left: 120px;
+  padding-top: 88px;
+}
+.why-azerbaijan .row .col-lg-6 .all .top {
+  display: flex;
+  align-items: center;
+}
+.why-azerbaijan .row .col-lg-6 .all .top img {
+  margin-right: 8px;
+}
+.why-azerbaijan .row .col-lg-6 .all .top h2 {
+  color: #1A2E51;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  line-height: 40px;
+  letter-spacing: 1.04px;
+  margin-top: 5px;
+}
+.why-azerbaijan .row .col-lg-6 .all .lorem {
+  padding-top: 32px;
+  color: black;
+  font-size: 18px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.36px;
+  margin-bottom: 0;
+}
+.why-azerbaijan .row .col-lg-6 .all .rate {
+  padding-top: 34px;
+  display: flex;
+  align-items: center;
+}
+.why-azerbaijan .row .col-lg-6 .all .rate .text {
+  padding-left: 24px;
+}
+.why-azerbaijan .row .col-lg-6 .all .rate .text h6 {
+  color: #465061;
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 32px;
+  letter-spacing: 0.4px;
+  margin-bottom: 0;
+}
+.why-azerbaijan .row .col-lg-6 .all .rate .text p {
+  color: #465061;
+  font-size: 16px;
+  font-family: "Fira Sans";
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.why-azerbaijan .row .col-lg-6 .all .bottom {
+  position: relative;
+  padding-top: 40px;
+}
+.why-azerbaijan .row .col-lg-6 .all .bottom a {
+  text-decoration: none;
+  color: #1A2E51;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 1.4px;
+  z-index: 9;
+  position: relative;
+  justify-content: right;
+  display: flex;
+}
+.why-azerbaijan .row .col-lg-6 .all .bottom a:hover {
+  height: 38px;
+}
+.why-azerbaijan .row .col-lg-6 .all .bottom span {
+  height: 4px;
+  width: 142px;
+  background-color: #F5B458;
+  display: block;
+  position: absolute;
+  bottom: 9px;
+  right: -2px;
+}
+
+.our-project {
+  padding-top: 100px;
+}
+.our-project .container .row .top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-project .container .row .top img {
+  margin-right: 8px;
+}
+.our-project .container .row .top h2 {
+  color: #1A2E51;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  line-height: 40px;
+  letter-spacing: 1.04px;
+  margin-top: 5px;
+}
+.our-project .container .row .col-lg-6 {
+  padding: 70px 40px 0 40px;
+}
+.our-project .container .row .col-lg-6 .kart img {
+  width: 100%;
+  position: relative;
+}
+.our-project .container .row .col-lg-6 .kart p {
+  color: black;
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 30px;
+  word-wrap: break-word;
+  text-align: center;
+  padding-top: 16px;
+}
+.our-project .container .row .col-lg-6 .kart:hover span {
+  display: inline-block;
+  width: 490px;
+  height: 319px;
+  background-color: black;
+  opacity: 30%;
+  position: absolute;
+  z-index: 1;
+  left: 145px;
+}
+.our-project .container .row .col-lg-6 .kart:hover span {
+  display: inline-block;
+  width: 490px;
+  height: 319px;
+  background-color: black;
+  opacity: 30%;
+  position: absolute;
+  z-index: 1;
+  left: 145px;
 }/*# sourceMappingURL=main.css.map */
