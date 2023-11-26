@@ -1,0 +1,149 @@
+@import url(./font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+// Header
+
+header {
+    
+    .nav-bar {
+        display: flex;
+        padding: 36px 0;
+        border-bottom: 1px solid #D5DAE3 ;
+
+        .text {
+            ul {
+                display: flex;
+                z-index: 9;
+                position: relative;
+                margin-left: 46px;
+                padding: 0;
+                padding-top: 12px;
+
+                li {
+                    margin-left: 28px;
+                    text-transform: uppercase;
+
+                    a {
+                        text-decoration: none;
+                        color: #465061;
+                    }
+
+                    &:hover a {
+                        color: #F5B458;
+                        transition: ease-in-out .2s;
+                    }
+
+                    &:hover .dropdown {
+                        display: block;
+                    }
+
+                    &:nth-child(5) {
+                        border-right: 1px solid #D5DAE3;
+                        padding-right: 14px;
+                    }
+
+                    &:nth-child(6) {
+                        margin-left: 0;
+                        padding-left: 14px;
+
+                        &:hover #vector{
+                            transform: rotate(-180deg);
+                        }
+                    }
+
+                    &:nth-child(7) {
+                        margin-left: 4px;
+                        margin-top: -2px;
+                    }
+
+                    .dropdown {
+                        background-color: white;
+                        position: absolute;
+                        z-index: 1;
+                        margin-top: 5px;
+                        display: none;
+
+                        ul {
+                            margin-left: 0;
+                            padding-top: 0;
+
+
+                            li {
+                                padding: 8px 40px 8px 20px;
+                                margin-left: 0;
+
+                                a {
+                                    color: #1A2E51;
+                                    font-size: 14px;
+                                    font-family: 'Montserrat';
+                                    font-weight: 500;
+                                    line-height: 28px;
+                                    letter-spacing: 0.56px;
+                                }
+
+                                &:hover {
+                                    background-color: #F5B458;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Header
+
+// News
+
+.news {
+    ul {
+        display: flex;
+        padding-top: 12px;
+        align-items: center;
+        li{
+           margin-right: 5px; 
+            a{
+                color: #B4B8BF;
+                font-size: 12px;
+                font-family: 'Montserrat';
+                font-weight: 600;
+                text-transform: uppercase;
+                line-height: 20px;
+                letter-spacing: 1.92px;
+                text-decoration: none;
+            }
+
+            &:nth-child(2){
+                color: #F5B458;
+                transform: rotate(-215deg);
+            }
+        }
+
+        #last{
+            a{
+                color: #F5B458;
+                font-size: 12px;
+                font-family: 'Montserrat';
+                font-weight: 600;
+                text-transform: uppercase;
+                line-height: 20px;
+                letter-spacing: 1.92px;
+            }
+        }
+    }
+}
+
+// News

@@ -1,5 +1,6 @@
 @import url(./font.css);
 @import url(./header.css);
+@import url(./footer.css);
 
 * {
     padding: 0;
@@ -213,6 +214,7 @@
                         font-weight: 400;
                         line-height: 24px;
                         letter-spacing: 0.03px;
+                        margin: 0;
                     }
                 }
             }
@@ -378,7 +380,7 @@
 
 // Why Azerbaijan
 
-.why-azerbaijan {
+.project-submission {
     padding-top: 120px;
 
     .row {
@@ -493,81 +495,239 @@
 
 .our-project {
     padding-top: 100px;
-    .container {
-        .row {
-            .top {
-                display: flex;
-                align-items: center;
-                justify-content: center;
+
+    .row {
+        .top {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                margin-right: 8px;
+            }
+
+            h2 {
+                color: #1A2E51;
+                font-size: 26px;
+                font-weight: 700;
+                font-family: "Montserrat";
+                text-transform: uppercase;
+                line-height: 40px;
+                letter-spacing: 1.04px;
+                margin-top: 5px;
+            }
+        }
+
+        .col-lg-6 {
+            padding: 70px 40px 0 40px;
+
+            .kart {
 
                 img {
-                    margin-right: 8px;
+                    width: 100%;
+                    position: relative;
                 }
 
-                h2 {
-                    color: #1A2E51;
-                    font-size: 26px;
-                    font-weight: 700;
-                    font-family: "Montserrat";
-                    text-transform: uppercase;
-                    line-height: 40px;
-                    letter-spacing: 1.04px;
-                    margin-top: 5px;
+                p {
+                    color: black;
+                    font-size: 20px;
+                    font-family: Montserrat;
+                    font-weight: 600;
+                    line-height: 30px;
+                    word-wrap: break-word;
+                    text-align: center;
+                    padding-top: 16px;
+                }
+
+                &:hover {
+                    transition: ease-in-out .3s;
+
+                    #first {
+                        display: inline-block;
+                        width: 490px;
+                        height: 319px;
+                        background-color: black;
+                        opacity: 30%;
+                        position: absolute;
+                        z-index: 1;
+                        left: 145px;
+                    }
+
+                    #second {
+                        display: inline-block;
+                        width: 490px;
+                        height: 319px;
+                        background-color: black;
+                        opacity: 30%;
+                        position: absolute;
+                        z-index: 1;
+                        right: 144px;
+                    }
                 }
             }
-            .col-lg-6{
-                padding: 70px 40px 0 40px;
+        }
 
-                .kart{
+        .kart-bottom {
+            position: relative;
+            padding-top: 54px;
 
-                    img{
-                        width: 100%;
-                        position: relative;
-                    }
-    
-                    p{
-                        color: black;
-                        font-size: 20px;
-                        font-family: Montserrat;
-                        font-weight: 600;
-                        line-height: 30px;
-                        word-wrap: break-word;
-                        text-align: center;
-                        padding-top: 16px;
-                    }
+            a {
+                text-decoration: none;
+                color: #1A2E51;
+                font-size: 14px;
+                font-family: 'Montserrat';
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: 22px;
+                letter-spacing: 1.40px;
+                z-index: 9;
+                position: relative;
+                justify-content: center;
+                display: flex;
+            }
 
-                    &:hover{
-
-                        span{
-                            display: inline-block;
-                            width: 490px;
-                            height: 319px;
-                            background-color: black;
-                            opacity: 30%;
-                            position: absolute;
-                            z-index: 1;
-                            left: 145px;
-                        }
-
-                        span{
-                            display: inline-block;
-                            width: 490px;
-                            height: 319px;
-                            background-color: black;
-                            opacity: 30%;
-                            position: absolute;
-                            z-index: 1;
-                            left: 145px;
-
-                            &:nth-child(2){
-                                
-                            }
-                        }
-                    }
-                }
+            span {
+                height: 4px;
+                width: 142px;
+                background-color: #F5B458;
+                display: block;
+                position: absolute;
+                left: 43.6%;
+                bottom: 9px;
             }
         }
     }
 }
 
 // Our project
+
+// Pasha-holding
+
+.pasha {
+    background-color: #EDEFF0;
+    margin-top: 88px;
+
+    .pasha-all {
+        display: flex;
+        justify-content: space-between;
+
+        .pasha-logo {
+            display: flex;
+            align-items: center;
+            padding: 46px 0;
+
+            img {
+                filter: grayscale(100%);
+            }
+
+            a {
+                padding-left: 12px;
+                margin-bottom: 0;
+                color: #465061;
+                font-size: 16px;
+                font-family: 'Arial';
+                font-weight: 500;
+                line-height: 20px;
+                text-decoration: none;
+            }
+
+            &:hover img {
+                filter: grayscale(0);
+            }
+
+            &:hover a {
+                color: black;
+            }
+        }
+    }
+
+}
+
+// Pasha-holding
+
+// Footer
+
+footer {
+    background-color: #1A2E51;
+
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        padding: 56px 0 48px 0;
+
+        .footer-logo {
+            img {
+                background-color: #1A2E51;
+            }
+        }
+
+        .other-col {
+
+            #first-line {
+                padding-bottom: 16px;
+
+                a {
+                    color: white;
+                    font-size: 14px;
+                    font-family: 'Montserrat';
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    line-height: 24px;
+                    letter-spacing: 0.84px;
+                }
+            }
+
+            ul {
+                padding-left: 0;
+                margin-bottom: 0;
+
+                li {
+
+                    a {
+                        text-decoration: none;
+                        color: rgba(255, 255, 255, 0.87);
+                        font-size: 14px;
+                        font-family: 'Montserrat';
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: 0.56px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-bottom{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgba(255, 255, 255, 0.50);
+        padding: 16px 0;
+
+        p{
+            color: white;
+            font-size: 14px;
+            font-family: 'Montserrat';
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.28px;
+            margin: 0;
+
+            span{
+                color: white;
+                font-size: 14px;
+                font-family: 'Montserrat';
+                font-weight: 700;
+                line-height: 26px;
+            }
+        }
+
+        .icon{
+            a{
+                padding: 0 5px;
+            }
+        }
+    }
+}
+
+
+// Footer

@@ -1,5 +1,6 @@
 @import url(./font.css);
 @import url(./header.css);
+@import url(./footer.css);
 * {
   padding: 0;
   margin: 0;
@@ -174,6 +175,7 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03px;
+  margin: 0;
 }
 
 .submission {
@@ -303,21 +305,21 @@
   left: -3px;
 }
 
-.why-azerbaijan {
+.project-submission {
   padding-top: 120px;
 }
-.why-azerbaijan .row .col-lg-6 .all {
+.project-submission .row .col-lg-6 .all {
   padding-left: 120px;
   padding-top: 88px;
 }
-.why-azerbaijan .row .col-lg-6 .all .top {
+.project-submission .row .col-lg-6 .all .top {
   display: flex;
   align-items: center;
 }
-.why-azerbaijan .row .col-lg-6 .all .top img {
+.project-submission .row .col-lg-6 .all .top img {
   margin-right: 8px;
 }
-.why-azerbaijan .row .col-lg-6 .all .top h2 {
+.project-submission .row .col-lg-6 .all .top h2 {
   color: #1A2E51;
   font-size: 26px;
   font-weight: 700;
@@ -327,7 +329,7 @@
   letter-spacing: 1.04px;
   margin-top: 5px;
 }
-.why-azerbaijan .row .col-lg-6 .all .lorem {
+.project-submission .row .col-lg-6 .all .lorem {
   padding-top: 32px;
   color: black;
   font-size: 18px;
@@ -337,15 +339,15 @@
   letter-spacing: 0.36px;
   margin-bottom: 0;
 }
-.why-azerbaijan .row .col-lg-6 .all .rate {
+.project-submission .row .col-lg-6 .all .rate {
   padding-top: 34px;
   display: flex;
   align-items: center;
 }
-.why-azerbaijan .row .col-lg-6 .all .rate .text {
+.project-submission .row .col-lg-6 .all .rate .text {
   padding-left: 24px;
 }
-.why-azerbaijan .row .col-lg-6 .all .rate .text h6 {
+.project-submission .row .col-lg-6 .all .rate .text h6 {
   color: #465061;
   font-size: 20px;
   font-family: "Montserrat";
@@ -355,7 +357,7 @@
   letter-spacing: 0.4px;
   margin-bottom: 0;
 }
-.why-azerbaijan .row .col-lg-6 .all .rate .text p {
+.project-submission .row .col-lg-6 .all .rate .text p {
   color: #465061;
   font-size: 16px;
   font-family: "Fira Sans";
@@ -364,11 +366,11 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-.why-azerbaijan .row .col-lg-6 .all .bottom {
+.project-submission .row .col-lg-6 .all .bottom {
   position: relative;
   padding-top: 40px;
 }
-.why-azerbaijan .row .col-lg-6 .all .bottom a {
+.project-submission .row .col-lg-6 .all .bottom a {
   text-decoration: none;
   color: #1A2E51;
   font-size: 14px;
@@ -382,10 +384,10 @@
   justify-content: right;
   display: flex;
 }
-.why-azerbaijan .row .col-lg-6 .all .bottom a:hover {
+.project-submission .row .col-lg-6 .all .bottom a:hover {
   height: 38px;
 }
-.why-azerbaijan .row .col-lg-6 .all .bottom span {
+.project-submission .row .col-lg-6 .all .bottom span {
   height: 4px;
   width: 142px;
   background-color: #F5B458;
@@ -398,15 +400,15 @@
 .our-project {
   padding-top: 100px;
 }
-.our-project .container .row .top {
+.our-project .row .top {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.our-project .container .row .top img {
+.our-project .row .top img {
   margin-right: 8px;
 }
-.our-project .container .row .top h2 {
+.our-project .row .top h2 {
   color: #1A2E51;
   font-size: 26px;
   font-weight: 700;
@@ -416,14 +418,14 @@
   letter-spacing: 1.04px;
   margin-top: 5px;
 }
-.our-project .container .row .col-lg-6 {
+.our-project .row .col-lg-6 {
   padding: 70px 40px 0 40px;
 }
-.our-project .container .row .col-lg-6 .kart img {
+.our-project .row .col-lg-6 .kart img {
   width: 100%;
   position: relative;
 }
-.our-project .container .row .col-lg-6 .kart p {
+.our-project .row .col-lg-6 .kart p {
   color: black;
   font-size: 20px;
   font-family: Montserrat;
@@ -433,7 +435,10 @@
   text-align: center;
   padding-top: 16px;
 }
-.our-project .container .row .col-lg-6 .kart:hover span {
+.our-project .row .col-lg-6 .kart:hover {
+  transition: ease-in-out 0.3s;
+}
+.our-project .row .col-lg-6 .kart:hover #first {
   display: inline-block;
   width: 490px;
   height: 319px;
@@ -443,7 +448,7 @@
   z-index: 1;
   left: 145px;
 }
-.our-project .container .row .col-lg-6 .kart:hover span {
+.our-project .row .col-lg-6 .kart:hover #second {
   display: inline-block;
   width: 490px;
   height: 319px;
@@ -451,5 +456,127 @@
   opacity: 30%;
   position: absolute;
   z-index: 1;
-  left: 145px;
+  right: 144px;
+}
+.our-project .row .kart-bottom {
+  position: relative;
+  padding-top: 54px;
+}
+.our-project .row .kart-bottom a {
+  text-decoration: none;
+  color: #1A2E51;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 22px;
+  letter-spacing: 1.4px;
+  z-index: 9;
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+.our-project .row .kart-bottom span {
+  height: 4px;
+  width: 142px;
+  background-color: #F5B458;
+  display: block;
+  position: absolute;
+  left: 43.6%;
+  bottom: 9px;
+}
+
+.pasha {
+  background-color: #EDEFF0;
+  margin-top: 88px;
+}
+.pasha .pasha-all {
+  display: flex;
+  justify-content: space-between;
+}
+.pasha .pasha-all .pasha-logo {
+  display: flex;
+  align-items: center;
+  padding: 46px 0;
+}
+.pasha .pasha-all .pasha-logo img {
+  filter: grayscale(100%);
+}
+.pasha .pasha-all .pasha-logo a {
+  padding-left: 12px;
+  margin-bottom: 0;
+  color: #465061;
+  font-size: 16px;
+  font-family: "Arial";
+  font-weight: 500;
+  line-height: 20px;
+  text-decoration: none;
+}
+.pasha .pasha-all .pasha-logo:hover img {
+  filter: grayscale(0);
+}
+.pasha .pasha-all .pasha-logo:hover a {
+  color: black;
+}
+
+footer {
+  background-color: #1A2E51;
+}
+footer .footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 0 48px 0;
+}
+footer .footer-top .footer-logo img {
+  background-color: #1A2E51;
+}
+footer .footer-top .other-col #first-line {
+  padding-bottom: 16px;
+}
+footer .footer-top .other-col #first-line a {
+  color: white;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 0.84px;
+}
+footer .footer-top .other-col ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+footer .footer-top .other-col ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.56px;
+}
+footer .footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 16px 0;
+}
+footer .footer-bottom p {
+  color: white;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.28px;
+  margin: 0;
+}
+footer .footer-bottom p span {
+  color: white;
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 26px;
+}
+footer .footer-bottom .icon a {
+  padding: 0 5px;
 }/*# sourceMappingURL=main.css.map */
