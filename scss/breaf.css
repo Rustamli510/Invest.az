@@ -116,18 +116,15 @@ header .nav-bar .text ul li .dropdown ul li:hover {
   letter-spacing: 1.92px;
 }
 
-.project-top {
-  display: flex;
+.breaf-top {
   padding-top: 80px;
-  padding-bottom: 70px;
-  align-items: center;
-  justify-content: space-between;
+  padding-bottom: 50px;
 }
-.project-top .row .col-lg-8 {
+.breaf-top .left {
   display: flex;
   align-items: center;
 }
-.project-top .row .col-lg-8 h2 {
+.breaf-top .left h2 {
   color: #1A2E51;
   font-size: 36px;
   font-family: "Montserrat";
@@ -138,71 +135,31 @@ header .nav-bar .text ul li .dropdown ul li:hover {
   padding-left: 8px;
   margin: 0;
 }
-.project-top .row .col-lg-4 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+.breaf-bottom .row .col-lg-6 .img img {
+  padding-top: 20px;
 }
-.project-top .row .col-lg-4 a {
-  text-decoration: none;
-  color: #1A2E51;
-  font-size: 16px;
+.breaf-bottom .row .col-lg-6 .text {
+  padding-left: 60px;
+  padding-top: 40px;
+}
+.breaf-bottom .row .col-lg-6 .text h1 {
+  color: #465061;
+  font-size: 18px;
   font-family: "Montserrat";
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+}
+.breaf-bottom .row .col-lg-6 .text p {
+  color: #465061;
+  font-size: 16px;
+  font-family: "Fira Sans";
+  font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0.96px;
-}
-.project-top .row .col-lg-4 a:first-child {
-  background-color: #F5B458;
-}
-
-.project .row .col-lg-6 {
-  padding: 0 40px;
-}
-.project .row .col-lg-6 .kart img {
-  width: 100%;
-  position: relative;
-}
-.project .row .col-lg-6 .kart p {
-  color: black;
-  font-size: 20px;
-  font-family: "Montserrat";
-  font-weight: 600;
-  line-height: 30px;
-  word-wrap: break-word;
-  text-align: center;
-  padding-top: 16px;
-  margin: 0;
-}
-.project .row .col-lg-6 .kart:hover {
-  transition: ease-in-out 0.3s;
-}
-.project .row .col-lg-6 .kart:hover #first {
-  display: inline-block;
-  width: 490px;
-  height: 321px;
-  background-color: black;
-  opacity: 30%;
-  position: absolute;
-  z-index: 1;
-  left: 145px;
-}
-.project .row .col-lg-6 .kart:hover #second {
-  display: inline-block;
-  width: 490px;
-  height: 319px;
-  background-color: black;
-  opacity: 30%;
-  position: absolute;
-  z-index: 1;
-  right: 144px;
-}
-.project .row .col-lg-6:nth-child(3) {
-  padding-top: 48px;
-}
-.project .row .col-lg-6:nth-child(4) {
-  padding-top: 48px;
+  letter-spacing: 0.8px;
+  padding-top: 28px;
 }
 
 footer {
@@ -266,4 +223,4 @@ footer .footer-bottom p span {
 }
 footer .footer-bottom .icon a {
   padding: 0 5px;
-}/*# sourceMappingURL=projects.css.map */
+}/*# sourceMappingURL=breaf.css.map */
