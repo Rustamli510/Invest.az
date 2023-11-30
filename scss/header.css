@@ -28,6 +28,17 @@ header .nav-bar .text ul li:hover a {
 header .nav-bar .text ul li:hover .dropdown {
   display: block;
 }
+header .nav-bar .text ul li:nth-child(5) {
+  border-right: 1px solid #D5DAE3;
+  padding-right: 14px;
+}
+header .nav-bar .text ul li:nth-child(6) {
+  margin-left: 0;
+  padding-left: 14px;
+}
+header .nav-bar .text ul li:nth-child(6):hover #vector {
+  transform: rotate(-180deg);
+}
 header .nav-bar .text ul li .dropdown {
   background-color: white;
   position: absolute;

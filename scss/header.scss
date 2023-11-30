@@ -34,6 +34,20 @@ header {
                         display: block;
                     }
 
+                    &:nth-child(5) {
+                        border-right: 1px solid #D5DAE3;
+                        padding-right: 14px;
+                    }
+
+                    &:nth-child(6) {
+                        margin-left: 0;
+                        padding-left: 14px;
+
+                        &:hover #vector {
+                            transform: rotate(-180deg);
+                        }
+                    }
+
                     .dropdown{
                         background-color: white;
                         position: absolute;
