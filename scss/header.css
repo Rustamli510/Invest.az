@@ -23,7 +23,6 @@ header .nav-bar .text ul li a {
 }
 header .nav-bar .text ul li:hover a {
   color: #F5B458;
-  transition: ease-in-out 0.2s;
 }
 header .nav-bar .text ul li:hover .dropdown {
   display: block;
@@ -38,6 +37,7 @@ header .nav-bar .text ul li:nth-child(6) {
 }
 header .nav-bar .text ul li:nth-child(6):hover #vector {
   transform: rotate(-180deg);
+  transition: ease-in-out 0.3s;
 }
 header .nav-bar .text ul li .dropdown {
   background-color: white;
